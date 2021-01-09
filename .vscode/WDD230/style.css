@@ -1,2 +1,2 @@
-header {width:800px; height:500px; background-color:rgb(9, 116, 158); text-align:center;}
+header {display:block; width:800px; height:200px; background-color:rgb(9, 116, 158); text-align:center;}
 h1 {color:white; font-family: "Unna", Arial, sans-serif;}
