@@ -1,3 +1,58 @@
-header {display:block; font-weight: 800; font-size: larger; width:800px; height:200px; background-color:rgb(9, 116, 158); text-align:center; font-family: "Unna", Arial, sans-serif;}
-h1 {color:white; font-family: "Unna", Arial, sans-serif;}
-.name {margin-top:100px;}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Unna&display=swap" rel="stylesheet" rel="stylesheet');
+body {
+  font-family: "Kanit", arial, sans-serif;
+  margin: 10em;
+}
+
+h1 {
+  font-style: bold;
+  color: white;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+.banner {
+  font-weight: 600;
+  background: #2B7EA1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 0.5em;
+}
+.name {
+  margin-top: -100px;
+  margin-left: -350px;
+  color: white;
+  font-size: 30;
+}
+.myportrait {
+  margin-left: 500px;
+  margin-top: -100px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+.footer-block {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #2B7EA1;
+  border-radius: 0.5em;
+}
+.footer-info {
+  font-size: 15;
+  color: white;
+  margin-top: -90px;
+}
+.update {
+  color: yellow;
+  margin-top: -10px;
+}
+.headline-1 {
+  margin-top: 150px;
+  border-bottom: 2px solid black;
+}
