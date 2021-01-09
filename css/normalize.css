@@ -347,3 +347,4 @@ template {
 [hidden] {
   display: none;
 }
+.name {width:400px; background:rgb(9, 116, 158)}
