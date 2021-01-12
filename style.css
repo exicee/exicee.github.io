@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Unna&display=swap" rel="stylesheet" rel="stylesheet');
 body {
-  font-family: "Kanit", arial, sans-serif;
+  font-family: arial, sans-serif;
   margin: 10em;
   max-width:900px;
 
@@ -23,10 +23,13 @@ header {
   border-radius: 0.5em;
 }
 .name {
-  margin-top: -100px;
-  margin-left: -350px;
+  margin-top: -130px;
+  margin-left: -300px;
   color: white;
-  font-size: 30;
+  font-weight:lighter;
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-family:"Kanit", arial, sans-serif;
 }
 .myportrait {
   margin-left: 620px;
@@ -52,7 +55,7 @@ footer {
   margin-top: -90px;
 }
 .update {
-  color: yellow;
+  color: rgba(253, 240, 117, 0.993);
   margin-top: -10px;
 }
 .headline-1 {
