@@ -38,6 +38,11 @@ nav a:hover{
 
 nav ul {
   list-style: none;
+  display:flex;
+}
+
+nav ul li{
+  flex:auto;
 }
 
 nav ul li a {
