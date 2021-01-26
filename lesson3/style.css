@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Unna&display=swap" rel="stylesheet" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+  font-family: arial, sans-serif;
+  margin: 10em auto;
+  max-width:900px;
+  background-color: cadetblue;
+
+}
+
+#title{
+  font-family: "Kanit",arial,sans-serif;
+  font-weight:lighter;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-left: 300px;
+}
+.logobox {
+  margin-top:-200px;
+}
+
+
+nav {
+  text-align:center;
+  list-style-type: none;
+}
+
+nav a:hover{
+  color: aqua;
+}
+
+#colors div{
+ 
+  height:50px;
+  width:100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lora',arial,sans-serif;
+  
+}
+
+h1 {
+  font-family: "Kanit",arial,sans-serif;
+  color: #FEB248;
+  font-weight: lighter;
+}
+h2,h3,h4,h5,p{
+  font-family: 'Lora',arial,sans-serif;
+}
+header {
+  display: flex;
+  background-color: #2b7ea1;
+  padding: 1rem;
+  text-align: center;
+}
+.banner {
+  font-weight: 600;
+  background: #2b7ea1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 0.5em;
+}
+.name {
+  color: white;
+  font-weight:lighter;
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-family:"Kanit", arial, sans-serif;
+}
+
+
+footer {
+  display: block;
+  text-align: center;
+}
+.footer-block {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #2B7EA1;
+  border-radius: 0.5em;
+}
+.footer-info {
+  font-size: 15;
+  color: white;
+  margin-top: -90px;
+
+}
+.update {
+  color: rgba(253, 240, 117, 0.993);
+  margin-top: -10px;
+}
+
+.headline-1 {
+  margin-top: 100px;
+  border-bottom: 2px solid black;
+  padding-top: -100px;
+}
+
+
