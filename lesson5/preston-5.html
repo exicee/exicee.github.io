@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Preston Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="title">
+    <h1>Project Klima</h1>
+    <h5 style="font-style: italic;">Cause you need to know</h5>
+    </div>
+
+    <header>
+        
+        <div class="logobox">
+          <img src="https://exicee.github.io/lesson3/logo2.jpg" width="100">
+        </div>
+        
+        <nav>
+           <!--* <div class="dpmenu" style="float:right;">
+                <button class="dbutton">
+                <div ></div>
+                <div ></div>
+                <div ></div>
+            </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+                </div> -->
+            <ul>
+                <li>
+                    <a href=".."> Home |</a>
+                    <a href="preston-4.html"> Preston |</a>
+                    <a href=".."> Soda Springs  |</a>
+                    <a href=".."> Fish Haven  | </a>
+                    <a href=".."> Storm Center  |  </a>
+                    <a href=".."> Gallery  </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+      <div id="preston">
+        <h2>Preston-Idaho</h2>
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="images/rainbow.jpg" style="width:960px">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="images/sun.jpg" style="width:960px">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="images/thunder.jpg" style="width:960px">
+          </div>
+          
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          <script src="js/slide.js"></script>
+          <section class="summary">
+            <h3>Weather Summary</h3>
+            <p>Current: Sunny</p>
+            <p>High: 33 C</p>
+            <p>Windchill: </p>
+            <p>Humidity: </p>
+            <p>Wind Speed: </p>
+          </section>
+      </div>
+      
+    </div>
+      <div id="weather">
+        <h2>Five Day Forecast</h2>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+      </div>
+
+      <div id="article">
+        <h2>What is Lorem Ipsum?</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+
+      <div id="Preston-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66991.91875629683!2d-111.86536127747121!3d42.09349438196714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1612518405123!5m2!1sen!2sph" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    
+
+    </main>
+      <footer>
+        <div id="contact">
+          <h2>Contact Information</h2>
+          <p>PK Building</p>
+          <p>12345 Street</p>
+          <p>Preston, Idaho, USA</p>
+          
+          <p>+1 234-567-8888</p>
+
+          <p>support@pk.gmail.com</p>
+        </div>
+        <div class="footer-block"></div>
+        <div class="footer-info">
+          <p>
+            &copy; | Isaiah L. Alvarado | Philippines |
+            <a href="https://www.byui.edu/online">BYU Online Learning </a>
+          </p>
+        </div>
+        <div class="update">
+          Last updated: <span id="update"></span>
+        </div>
+        <script src="java/lastupdate.js">
+        </script>
+      </footer>
+    </div>
+  </body>
+</html>
